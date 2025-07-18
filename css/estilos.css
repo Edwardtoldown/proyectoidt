@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#panelAcceso{
+    width: 350px; 
+    margin: auto;
+    margin-top: 5%;
+}
+#mensajes{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.izquierda{
+    text-align: left;
+}
+.centrado{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+}
+.row{
+    margin-bottom: 3px;
+}
+tbody tr{
+    cursor: pointer;
+}
+@media (max-width: 700px){
+    .id{
+        display: none;
+    }
+}
+
+/*para que el menu pueda tener submenu*/
+/*@media (min-width: 767px) {
+    .navbar-nav .dropdown-menu .caret {
+	transform: rotate(-90deg);
+    }
+}*/
